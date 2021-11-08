@@ -1,0 +1,148 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+baseurl                 = "https://duda-blog.netlify.app/"
+DefaultContentLanguage  = "pt"
+title                   = "DuDa - Aventuras Culinárias"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+enableEmoji             = true
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[module]
+  [module.hugoVersion]
+  extended              = true
+  min                   = "0.62.0"
+
+[outputs]
+  home                  = ["html", "json", "rss"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = ""
+  highlightjsLang       = []
+  viewMorePostsLink     = "blog"
+  readingTime           = true
+  #imageStretch          = "vertical" # "horizontal"
+  removeBlur            = false
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  hideEmptyStats        = false
+  toc                   = true
+  tocWords              = 400
+
+  [params.meta]
+    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    author              = "Duda e Daniel"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "DuDa"
+    dynamicTitles       = false # deixa sempre como DuDa
+    searchMenu          = true
+    shareMenu           = true
+    languageMenu        = false
+
+  [params.intro]
+    header                = "DuDa - Aventuras Culinárias"
+    paragraph             = "Venha se deliciar conosco!"
+    rssIntro              = true
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "main/nos_dois_jb.jpeg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Os brabos."
+
+  [params.sidebar]
+    about               = "Resenhas dos restaurantes a que foram Du(da)Da(niel)."
+    postAmount          = 5
+    categories          = true
+    categoriesByCount   = true
+
+  [params.footer]
+    rssFooter           = true
+    socialFooter        = true
+
+[menu]
+
+  [[menu.main]]
+    name              = "Início"
+    identifier        = "home"
+    url               = ""
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "Sobre Nós"
+    identifier        = "about"
+    url               = "about"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Blog"
+    identifier        = "blog"
+    url               = "blog"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  [[menu.main]]
+    name              = "Categorias"
+    identifier        = "categories"
+    url               = "categories"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 5
+
+  [[menu.main]]
+    name              = "Contato"
+    identifier        = "contact"
+    url               = "contact"
+    pre               = "<i class='far fa-envelope'></i>"
+    weight            = 6
+
+[Languages]
+
+  [Languages.pt]
+    LanguageCode        = "pt"
+    LanguageName        = "Português"
+    weight              = 1
+
+[social]
+  # Coding Communities
+  github                = "d-nct/DuDa-blog"
+
+  # Publishing Communities
+#  medium                = ""
+
+  # Professional/Business Oriented Communities
+#  linkedin              = "example"
+#  linkedin_company      = "examplebusiness"
+
+  # Social Networks
+  facebook              = "example"
+#  reddit                = "example"
+#  youtube               = ""
+  whatsapp              = "" # WhatsApp Number
+  instagram             = "example"
+#  tumblr                = ""
+  twitter               = "example"
+#  pinterest             = "example"
+#  telegram              = "example"
+
+  # Email
+  email                 = "example"
