@@ -123,9 +123,6 @@ enableEmoji             = true
     weight              = 1
 
 [social]
-  # Coding Communities
-  github                = "d-nct/DuDa-blog"
-
   # Publishing Communities
 #  medium                = ""
 
@@ -134,15 +131,18 @@ enableEmoji             = true
 #  linkedin_company      = "examplebusiness"
 
   # Social Networks
-  facebook              = "example"
+  facebook              = "não_criamos"
 #  reddit                = "example"
 #  youtube               = ""
-  whatsapp              = "" # WhatsApp Number
-  instagram             = "example"
+  whatsapp              = "e-nem-vamos-criar" # WhatsApp Number
+  instagram             = "em_processo_de_criação"
 #  tumblr                = ""
-  twitter               = "example"
+  twitter               = "desprezamos_passaro_azul"
 #  pinterest             = "example"
 #  telegram              = "example"
 
   # Email
-  email                 = "example"
+  email                 = "ainda_não_temos@aguarde_e_confie.com"
+
+  # Coding Communities
+  github                = "d-nct/DuDa-blog"

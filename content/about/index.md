@@ -6,6 +6,6 @@ date = "2021-11-08"
 layout = "about"
 +++
 
-Aqui vai nosso texto de apresentação.
+#### Aqui vai nosso texto de apresentação:
 
----Não--- há muito o que se falar, então deixarei pra depois.
+~~Não~~ Há muito o que se falar, então deixarei para escrever depois.

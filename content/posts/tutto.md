@@ -14,7 +14,13 @@ categories = ["Italiano"]
   # stretch = "horizontal"
 +++
 
+## O Local
+
 Fomos ao [Tutto Nhoque](https://tuttonhoque.com.br/) do Jardim Botânico e foi bacana!
+
+O lugar é bastante agradável!
+
+## Os Preços
 
 Confira o cardápio:
 
