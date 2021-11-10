@@ -19,7 +19,7 @@
   other = "Contato"
 [contact_replies]
   one = "Resposta tipicamente em 1 hora."
-  other = "Resposta tipicamente em {{ .Count }} horas."
+  other = "Respondemos geralmente em {{ .Count }} horas."
 [blog]
   other = "Blog"
 [categories]
@@ -54,7 +54,7 @@
 [error_msg]
   other = "Desculpe, ocorreu um erro no envio. Por favor verifique se todos os campos obrigatórios foram preenchidos e tente novamente."
 [success_msg]
-  other = "Obrigado pelo seu comentário! Ele aparecerá no site assim que for aprovado."
+  other = "Obrigado pelo seu comentário! Vamos ler com carinho e ele aparecerá no site assim que for aprovado."
 
 # Form
 [form_name]
@@ -76,8 +76,8 @@
 
 # 404
 [404_pagenotfound]
-  other = "Página Não Encontrada"
+  other = "Ixiii a página não ecsiste!"
 [404_sorry]
-  other = "Desculpe, mas a página que você está procurando não existe."
+  other = "'Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, pois tu estás comigo; a tua vara e o teu cajado me protegem.' Volte mais tarde para ver se o sol cruzou seu caminho e iluminou essa página."
 [404_back]
-  other = "Voltar"
+  other = "Voltar à luz"
