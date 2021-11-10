@@ -1,10 +1,10 @@
-# O Projeto
+# Projeto DuDa
 
 ## O Repositório
 
-O objetivo desse repositório é manter o site (DuDa - Aventuras Culinárias)[https://duda-blog.netlify.app/].
+O objetivo desse repositório é manter o site [DuDa - Aventuras Culinárias]([DuDa - Aventuras Culinárias](https://duda-blog.netlify.app/)).
 
-Ele foi construído usando o framework (Hugo)[https://gohugo.io/], a partir do tema (Future Imperfect Slim)[https://themes.gohugo.io/themes/hugo-future-imperfect-slim/] e está online graças ao (Netlify)[https://www.netlify.com/].
+Ele foi construído usando o framework [Hugo](https://gohugo.io/), a partir do tema [Future Imperfect Slim]([Hugo Future Imperfect Slim | Hugo Themes](https://themes.gohugo.io/themes/hugo-future-imperfect-slim/)) e está online graças ao [Netlify]([Netlify: Develop &amp; deploy the best web experiences in record time](https://www.netlify.com/)).
 
 ## O Blog
 
