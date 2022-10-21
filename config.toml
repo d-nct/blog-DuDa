@@ -63,7 +63,7 @@ enableEmoji             = true
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "main/nos_dois_jb.jpeg"
+      src                 = "main/logo.jpg"
       shape               = "circle"
       width               = ""
       alt                 = "Os brabos."
