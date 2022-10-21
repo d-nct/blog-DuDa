@@ -5,6 +5,7 @@ author = "Duda & Daniel"
 date = "2021-10-25"
 tags = ["Jardim Botânico", "Massa", "Queijo"]
 categories = ["Italiano"]
+# draft = true
 [[images]]
   src = "/restaurantes/tutto/frente.jpeg"
   alt = "Frente"
